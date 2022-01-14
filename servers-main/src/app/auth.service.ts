@@ -25,6 +25,6 @@ export class AuthService {
         }, 800);
       }
     );
-    return promise;
+    return <Promise<boolean>>promise;
   }
 }
